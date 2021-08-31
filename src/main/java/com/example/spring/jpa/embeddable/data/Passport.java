@@ -1,6 +1,7 @@
 package com.example.spring.jpa.embeddable.data;
 
 import javax.persistence.Column;
+import javax.persistence.Embeddable;
 import java.io.Serializable;
 
 /**
@@ -9,6 +10,7 @@ import java.io.Serializable;
  * <p>Project: spring-jpa-embeddable2</p>
  * *
  */
+//@Embeddable
 public class Passport implements Serializable {
 
     @Column(name = "passport_number")
